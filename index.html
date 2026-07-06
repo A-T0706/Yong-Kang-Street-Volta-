@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yong Kang Street | Chinese & Taiwanese Food</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#home" class="logo">
+        <span class="logo-mark">永</span>
+        <span>Yong Kang Street</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation">☰</button>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Chinese & Taiwanese comfort food</p>
+        <h1>Fresh noodles, crispy dim sum, and warm bowls made fast.</h1>
+        <p class="hero-text">
+          Yong Kang Street brings bold Chinese and Taiwanese flavors to a casual local restaurant experience:
+          noodle soups, combo plates, fried rice, lo mein, bubble tea, and more.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn primary">View Menu</a>
+          <a href="#visit" class="btn secondary">Plan Your Visit</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="steam">♨</div>
+        <h2>Today's favorites</h2>
+        <ul>
+          <li><span>Taiwanese Beef Noodle Soup</span><strong>$16.99</strong></li>
+          <li><span>Combo Plate with 2 Entrees</span><strong>$13.99</strong></li>
+          <li><span>Dumplings, 10 pcs</span><strong>$9.99</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <div>
+        <p class="eyebrow">Why this site works</p>
+        <h2>A simple website for a restaurant without one.</h2>
+      </div>
+      <p>
+        This custom site helps customers quickly understand what Yong Kang Street serves, browse popular
+        menu options, see the style of food, and find basic visit information without relying only on delivery apps.
+      </p>
+    </section>
+
+    <section id="menu" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Menu</p>
+        <h2>Popular dishes and drinks</h2>
+        <p>Prices are sample delivery prices and should be checked with the restaurant for in-store accuracy.</p>
+      </div>
+
+      <div class="menu-tabs" aria-label="Menu categories">
+        <button class="tab active" data-category="all">All</button>
+        <button class="tab" data-category="bowls">Bowls</button>
+        <button class="tab" data-category="noodles">Noodles</button>
+        <button class="tab" data-category="dim-sum">Dim Sum</button>
+        <button class="tab" data-category="drinks">Drinks</button>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-item" data-category="bowls">
+          <div>
+            <h3>Combo Plate with 2 Entrees</h3>
+            <p>Choose two flavorful entrees with a filling side.</p>
+          </div>
+          <strong>$13.99</strong>
+        </article>
+
+        <article class="menu-item" data-category="bowls">
+          <div>
+            <h3>Combo Plate with 3 Entrees</h3>
+            <p>A bigger plate for customers who want variety.</p>
+          </div>
+          <strong>$15.59</strong>
+        </article>
+
+        <article class="menu-item" data-category="noodles">
+          <div>
+            <h3>Taiwanese Beef Noodle Soup</h3>
+            <p>Rich broth, tender beef, and noodles in a comforting bowl.</p>
+          </div>
+          <strong>$16.99</strong>
+        </article>
+
+        <article class="menu-item" data-category="noodles">
+          <div>
+            <h3>Wonton Noodle Soup</h3>
+            <p>Warm noodle soup with wontons and a light savory broth.</p>
+          </div>
+          <strong>$11.49</strong>
+        </article>
+
+        <article class="menu-item" data-category="noodles">
+          <div>
+            <h3>Japanese Tonkotsu Ramen Soup</h3>
+            <p>A creamy-style ramen option for noodle lovers.</p>
+          </div>
+          <strong>$15.99</strong>
+        </article>
+
+        <article class="menu-item" data-category="noodles">
+          <div>
+            <h3>Roast Duck Fried Rice</h3>
+            <p>Fried rice with roast duck for a smoky, savory flavor.</p>
+          </div>
+          <strong>$15.99</strong>
+        </article>
+
+        <article class="menu-item" data-category="noodles">
+          <div>
+            <h3>Beef Lo Mein</h3>
+            <p>Stir-fried noodles with beef and vegetables.</p>
+          </div>
+          <strong>$15.99</strong>
+        </article>
+
+        <article class="menu-item" data-category="dim-sum">
+          <div>
+            <h3>Dumplings, 10 pcs</h3>
+            <p>A classic shareable side with a crispy or tender bite.</p>
+          </div>
+          <strong>$9.99</strong>
+        </article>
+
+        <article class="menu-item" data-category="dim-sum">
+          <div>
+            <h3>Wontons, 8 pcs</h3>
+            <p>Small savory wontons, perfect as a starter or side.</p>
+          </div>
+          <strong>$7.99</strong>
+        </article>
+
+        <article class="menu-item" data-category="drinks">
+          <div>
+            <h3>Bubble Tea</h3>
+            <p>Sweet, refreshing tea drinks with chewy tapioca pearls.</p>
+          </div>
+          <strong>Varies</strong>
+        </article>
+
+        <article class="menu-item" data-category="drinks">
+          <div>
+            <h3>Real Fruit Smoothies</h3>
+            <p>Cold fruit smoothies for a refreshing dessert-style drink.</p>
+          </div>
+          <strong>Varies</strong>
+        </article>
+
+        <article class="menu-item" data-category="drinks">
+          <div>
+            <h3>Fresh Squeezed Fruit Juice</h3>
+            <p>A lighter drink option to pair with noodles or rice.</p>
+          </div>
+          <strong>Varies</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="section-heading">
+        <p class="eyebrow">Gallery</p>
+        <h2>Food preview</h2>
+        <p>These are custom visual placeholders. Replace them with real photos you take at the restaurant.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="photo-card photo-1">
+          <figcaption>Beef noodle soup</figcaption>
+        </figure>
+        <figure class="photo-card photo-2">
+          <figcaption>Combo plate</figcaption>
+        </figure>
+        <figure class="photo-card photo-3">
+          <figcaption>Dumplings</figcaption>
+        </figure>
+        <figure class="photo-card photo-4">
+          <figcaption>Bubble tea</figcaption>
+        </figure>
+        <figure class="photo-card photo-5">
+          <figcaption>Fried rice</figcaption>
+        </figure>
+        <figure class="photo-card photo-6">
+          <figcaption>Lo mein</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="visit" class="visit section">
+      <div class="visit-card">
+        <p class="eyebrow">Visit</p>
+        <h2>Stop by Yong Kang Street</h2>
+        <p>
+          Add the exact address, phone number, and hours after you confirm them in person or from the restaurant.
+        </p>
+
+        <div class="info-list">
+          <p><strong>Location:</strong> Replace with exact address</p>
+          <p><strong>Hours:</strong> Replace with current restaurant hours</p>
+          <p><strong>Phone:</strong> Replace with phone number</p>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <h3>Contact Form Mockup</h3>
+        <label>
+          Name
+          <input type="text" placeholder="Your name" />
+        </label>
+        <label>
+          Message
+          <textarea placeholder="Ask about menu items, catering, or hours"></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p class="form-note">This form is a design mockup for the school project.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Yong Kang Street. Student website redesign built from scratch.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
